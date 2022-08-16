@@ -16,6 +16,8 @@ export const Black = styled.button`
   }
 `;
 
+//ADD 3D EFFECTS
+
 export const White = styled.button`
   background: white;
   width: 60px;
