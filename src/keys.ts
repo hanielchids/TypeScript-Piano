@@ -16,7 +16,7 @@ export const Black = styled.button`
   }
 `;
 
-//ADD 3D EFFECTS
+//ADD 3D EFFECTS on all
 
 export const White = styled.button`
   background: white;
