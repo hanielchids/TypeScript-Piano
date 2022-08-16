@@ -1,3 +1,2 @@
 # TypeScript-Piano
-
-<!-- To add images and descriptions-->
+<!-- edit readme -->
