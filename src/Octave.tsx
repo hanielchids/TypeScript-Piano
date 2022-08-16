@@ -1,21 +1,14 @@
-import React from "react";
-import styled from "styled-components";
+import React, { FC } from "react";
 import { NoteType } from "./helpers";
 import Note from "./Note";
-
-const Wrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-`;
+import { Wrapper } from "./keys";
 
 type Props = {
   notes: NoteType[];
   clickHandler: (e: React.MouseEvent<HTMLButtonElement>) => void;
 };
 
-const Octave: React.FC<Props> = ({ notes, clickHandler }) => (
+const Octave: FC<Props> = ({ notes, clickHandler }) => (
   <Wrapper>
     <div>
       {notes.map((element: NoteType) => (
