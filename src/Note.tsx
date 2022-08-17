@@ -9,6 +9,8 @@ type Props = {
   clickHandler: (e: React.MouseEvent<HTMLButtonElement>) => void;
 };
 
+// keys need to be numbered and sorted
+
 const Note: FC<Props> = ({ color, note, clickHandler }) =>
   color === "white" ? (
     <White value={note} onClick={clickHandler} />
